@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form id="form">
+        <div class="user-name">
+            <label for="name">User Name</label>
+            <i class="fas fa-user"></i>
+            <input type="text" name="username" id="username">
+            <i class="fas fa-exclamation-circle failure-icon"></i>
+            <i class="fas fa-check-circle success-icon"></i>
+            <div class="error"></div>
+        </div>
+        <div class="user-email">
+            <label for="email">Email</label>
+            <i class="fas fa-envelope"></i>
+            <input type="email" name="email" id="email">
+            <i class="fas fa-exclamation-circle failure-icon"></i>
+            <i class="fas fa-check-circle success-icon"></i>
+            <div class="error"></div>
+        </div>
+        <div class="pass">
+            <label for="password">Password</label>
+            <i class="fas fa-lock"></i>
+            <input type="password" name="password" id="password">
+            <i class="fas fa-exclamation-circle failure-icon"></i>
+            <i class="fas fa-check-circle success-icon"></i>
+            <div class="error"></div>
+        </div>
+        <button type="submit" id="submit">submit</button>
+    </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
